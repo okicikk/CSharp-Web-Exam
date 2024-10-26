@@ -1,7 +1,7 @@
 ﻿using DeskMarket.Data.Models;
 using System.ComponentModel.DataAnnotations;
 using static DeskMarket.Constants.Constants;
-namespace DeskMarket.Models
+namespace DeskMarket.Models.Product
 {
     public class ProductEditViewModel
     {

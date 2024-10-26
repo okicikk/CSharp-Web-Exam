@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using static DeskMarket.Constants.Constants;
-namespace DeskMarket.Models
+namespace DeskMarket.Models.Product
 {
     public class ProductAddViewModel
     {
@@ -11,7 +11,7 @@ namespace DeskMarket.Models
         [MaxLength(ProductNameMaxLength)]
         public string ProductName { get; set; }
         [Required]
-        [Range((double)PriceMinNumber,(double)PriceMaxNumber)]
+        [Range((double)PriceMinNumber, (double)PriceMaxNumber)]
         public decimal Price { get; set; }
         [Required]
         [MinLength(DescriptionMinLength)]

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 
-namespace DeskMarket.Models
+namespace DeskMarket.Models.Product
 {
     public class ProductDetailsModelView
     {
@@ -12,7 +12,7 @@ namespace DeskMarket.Models
         public string CategoryName { get; set; }
         public string AddedOn { get; set; }
         public string Seller { get; set; }
-        public bool HasBought{ get; set; }
+        public bool HasBought { get; set; }
 
     }
 }

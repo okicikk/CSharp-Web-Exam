@@ -1,6 +1,6 @@
 ﻿using DeskMarket.Data;
 using DeskMarket.Data.Models;
-using DeskMarket.Models;
+using DeskMarket.Models.Product;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Build.Framework;
